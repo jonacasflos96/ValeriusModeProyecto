@@ -45,29 +45,11 @@ button{
     border-radius: 30px;
     transition: .4s;
     .hover{
-
     }
 }
-
 button:hover{ 
     color: black;
     background: white;
     border: 2px solid blue;
     cursor: pointer;
-}
-@media screen and (max-width: 1180px) {
-    .content{
-        width: 100%;
-        height: auto;
-        padding: 70px 0px;
-    }
-}
-@media screen and (max-width: 650px){
-    .about img{
-        margin-bottom: 35px;
-    }
-    .nosotros-text h1{
-        font-size: 60px;
-        margin-bottom: 25px;
-    }
 }
