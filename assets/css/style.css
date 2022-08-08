@@ -77,13 +77,12 @@ form {
   width: 1130px;
   max-width: 95%;
   margin: 0 auto;
-  display: flex;
   align-items: center;
   justify-content: space-around; }
 
 .nosotros-text p {
   color: black;
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 20px;
   letter-spacing: 1px; }
 
@@ -102,3 +101,19 @@ button:hover {
   background: white;
   border: 2px solid blue;
   cursor: pointer; }
+
+@media (min-width: 1180px) {
+  .content {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+  .about img {
+    width: 420px;
+    display: flex;
+    justify-content: center; }
+  .nosotros-text p {
+    font-size: 19px; } }
