@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Joan&family=Merriweather:ital,wght@0,300;1,700&family=Montserrat+Alternates:ital,wght@0,300;1,200&display=swap");
 .main h1, .main2 h1 {
   font-size: 45px;
-  color: #3d3b3b;
+  color: #241452;
   margin-top: 0px; }
 
 .main img, .main2 img {
@@ -11,28 +10,17 @@
   background-color: #f0f2f8; }
 
 .main h5, .main2 h5 {
-  color: #383880; }
+  color: #353536; }
 
 .main2 .tarjetita {
   background-color: #f0f2f8; }
 
 .navbar a {
   color: #020202;
-  font-size: 16px;
-  font-family: 'Merriweather', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  font-size: 16px; }
 
 .navbar .card {
   background-color: #050705; }
-
-.footer {
-  background-color: #302e2e;
-  height: 150px;
-  display: grid;
-  align-items: center;
-  place-content: center; }
-  .footer p {
-    color: azure;
-    font-size: 16px; }
 
 .btn {
   background-color: #3066fa;
